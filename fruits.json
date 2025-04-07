@@ -1,0 +1,447 @@
+[
+        {
+          "fruit": "Gum-Gum Fruit",
+          "user": "Monkey D. Luffy",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Monkey_D._Luffy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20240306200817",
+          "rarity": "Rare"
+        },
+        {
+          "fruit": "Chop-Chop Fruit",
+          "user": "Buggy",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/villains/images/b/b1/Buggy_the_Clown.png/revision/latest?cb=20120508194100",
+          "rarity": "Common"
+        },
+        {
+          "fruit": "Plume-Plume Fruit",
+          "user": "Smoker",
+          "type": "Logia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/1/1c/Smoker_Anime_Pre_Timeskip_Infobox.png/revision/latest/scale-to-width/360?cb=20160102184944",
+          "rarity": "Legendary"
+        },
+        {
+          "fruit": "Smooth-Smooth Fruit",
+          "user": "Alvida",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/c/cd/Alvida_Anime_Infobox.png/revision/latest?cb=20221116234952",
+          "rarity": "Common"
+        },
+        {
+          "fruit": "Kilo-Kilo Fruit",
+          "user": "Mikita",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/8/8a/Mikita_Digitally_Colored_Manga.png/revision/latest?cb=20211014035956",
+          "rarity": "Common"
+        },
+        {
+          "fruit": "Bomb-Bomb Fruit",
+          "user": "Gem",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/1/14/Gem_Anime_Infobox.png/revision/latest/scale-to-width/360?cb=20221003165534",
+          "rarity": "Common"
+        },
+        {
+          "fruit": "Flower-Flower Fruit",
+          "user": "Nico Robin",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Nico_Robin_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20190202051257",
+          "rarity": "Rare"
+        },
+        {
+          "fruit": "Wax-Wax Fruit",
+          "user": "Galdino",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/3/32/Galdino_Anime_Concept_Art.png/revision/latest?cb=20190403111613",
+          "rarity": "Common"
+        },
+        {
+          "fruit": "Sand-Sand Fruit",
+          "user": "Crocodile",
+          "type": "Logia",
+          "image": "https://static.wikia.nocookie.net/villains/images/d/d3/Crocodile_Egghead_Arc_Anime_Concept_Art_copy.png/revision/latest?cb=20240831200205",
+          "rarity": "Legendary"
+        },
+        {
+          "fruit": "Munch-Munch Fruit",
+          "user": "Wapol",
+          "type": "Paramecia",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Wapol_Anime_Pre_Timeskip_Infobox.png/revision/latest/scale-to-width/360?cb=20221010220208",
+          "rarity": "Common"
+        },
+        {
+          "fruit": "Ox-Ox Fruit, Model: Bison",
+          "user": "Dalton",
+          "type": "Zoan",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/1/11/Dalton_Timeskip_Anime_Concept_Art.png/revision/latest?cb=20190729123119",
+          "rarity": "Epic"
+        },
+            {
+              "fruit": "Human-Human Fruit",
+              "user": "Tony Tony Chopper",
+              "type": "Zoan",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/a/af/Tony_Tony_Chopper_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20240720150824",
+              "rarity": "Epic"
+            },
+            {
+              "fruit": "Clone-Clone Fruit",
+              "user": "Kurozumi Higurashi / Bentham",
+              "type": "Paramecia",
+              "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdPElN--BSnq5RMAD2UI43Jzs7JsE_AZ1sQg&s",
+              "rarity": "Rare"
+            },
+            {
+              "fruit": "Flame-Flame Fruit",
+              "user": "Portgas D. Ace / Sabo",
+              "type": "Logia",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/6/6b/Episode_of_Sabo_Poster.png/revision/latest?cb=20150812202002",
+              "rarity": "Legendary"
+            },
+            {
+              "fruit": "Dice-Dice Fruit",
+              "user": "Daz Bonez",
+              "type": "Paramecia",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Daz_Bonez_Anime_Infobox.png/revision/latest?cb=20221102004113",
+              "rarity": "Rare"
+            },
+            {
+              "fruit": "Bird-Bird Fruit, Model: Falcon",
+              "user": "Pell",
+              "type": "Zoan",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Pell_Anime_Infobox.png/revision/latest?cb=20240903112506",
+              "rarity": "Rare"
+            },
+            {
+              "fruit": "Dog-Dog Fruit, Model: Dachshund",
+              "user": "Lassoo",
+              "type": "Zoan",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/6/68/Mr._4_Anime_Concept_Art.png/revision/latest?cb=20180909045531",
+              "rarity": "Common"
+            },
+            {
+              "fruit": "Mole-Mole Fruit",
+              "user": "Drophy",
+              "type": "Zoan",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/f/f4/Drophy_Anime_Infobox.png/revision/latest?cb=20230624124714",
+              "rarity": "Common"
+            },
+            {
+              "fruit": "Spike-Spike Fruit",
+              "user": "Zala",
+              "type": "Paramecia",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/6/60/Zala_Anime_Infobox.png/revision/latest?cb=20221003164424",
+              "rarity": "Common"
+            },
+            {
+              "fruit": "Dog-Dog Fruit, Model: Jackal",
+              "user": "Chaka",
+              "type": "Zoan",
+              "image": "https://static.wikia.nocookie.net/onepiece/images/7/73/Chaka_Anime_Infobox.png/revision/latest?cb=20240922030609",
+              "rarity": "Rare"
+            },
+                {
+                  "fruit": "Bind-Bind Fruit",
+                  "user": "Hina",
+                  "type": "Paramecia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/0/0d/Hina_Anime_Infobox.png/revision/latest?cb=20231125233601",
+                  "rarity": "Rare"
+                },
+                {
+                  "fruit": "Spring-Spring Fruit",
+                  "user": "Bellamy",
+                  "type": "Paramecia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/2/27/Bellamy_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20230116235201",
+                  "rarity": "Rare"
+                },
+                {
+                  "fruit": "String-String Fruit",
+                  "user": "Donquixote Doflamingo",
+                  "type": "Paramecia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Donquixote_Doflamingo_Anime_Infobox.png/revision/latest?cb=20231017082245",
+                  "rarity": "Legendary"
+                },
+                {
+                  "fruit": "Horse-Horse Fruit",
+                  "user": "Pierre",
+                  "type": "Zoan",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/3/39/Uma_Uma_no_Mi_Infobox.png/revision/latest?cb=20220713111132",
+                  "rarity": "Common"
+                },
+                {
+                  "fruit": "Rumble-Rumble Fruit",
+                  "user": "Enel",
+                  "type": "Logia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Enel_Anime_Infobox.png/revision/latest?cb=20230520213625",
+                  "rarity": "Legendary"
+                },
+                {
+                  "fruit": "Slow-Slow Fruit",
+                  "user": "Foxy",
+                  "type": "Paramecia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Foxy_Anime_Concept_Art.png/revision/latest?cb=20200208111521",
+                  "rarity": "Common"
+                },
+                {
+                  "fruit": "Ice-Ice Fruit",
+                  "user": "Kuzan",
+                  "type": "Logia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/d/d6/Kuzan_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20240811021341",
+                  "rarity": "Legendary"
+                },
+                {
+                  "fruit": "Door-Door Fruit",
+                  "user": "Blueno",
+                  "type": "Paramecia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Blueno_Anime_Pre_Timeskip_Infobox.png/revision/latest?cb=20220824170259",
+                  "rarity": "Rare"
+                },
+                {
+                  "fruit": "Cat-Cat Fruit, Model: Leopard",
+                  "user": "Rob Lucci",
+                  "type": "Zoan",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Rob_Lucci_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20230102052113",
+                  "rarity": "Epic"
+                },
+                {
+                  "fruit": "Eleph-Eleph Fruit",
+                  "user": "Funkfreed",
+                  "type": "Zoan",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/c/c1/Funkfreed_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20250301182705",
+                  "rarity": "Common"
+                },
+                {
+                  "fruit": "Dog-Dog Fruit, Model: Wolf",
+                  "user": "Jabra",
+                  "type": "Zoan",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/1/12/Jabra_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20240915021445",
+                  "rarity": "Rare"
+                },
+                {
+                  "fruit": "Ox-Ox Fruit, Model: Giraffe",
+                  "user": "Kaku",
+                  "type": "Zoan",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/0/09/Kaku_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20221127204534",
+                  "rarity": "Rare"
+                },
+                {
+                  "fruit": "Bubble-Bubble Fruit",
+                  "user": "Kalifa",
+                  "type": "Paramecia",
+                  "image": "https://static.wikia.nocookie.net/onepiece/images/b/b3/Kalifa_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20240915021516",
+                  "rarity": "Rare"
+                },
+                    {
+                      "fruit": "Berry-Berry Fruit",
+                      "user": "Very Good",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/3/3a/Very_Good_Anime_Infobox.png/revision/latest?cb=20230812130315",
+                      "rarity": "Uncommon"
+                    },
+                    {
+                      "fruit": "Rust-Rust Fruit",
+                      "user": "Shu",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/a/a9/Shu_Anime_Infobox.png/revision/latest?cb=20160626183125",
+                      "rarity": "Common"
+                    },
+                    {
+                      "fruit": "Wheel-Wheel Fruit",
+                      "user": "Sharinguru",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/0/0e/Sharinguru_Anime_Infobox.png/revision/latest?cb=20230812130253",
+                      "rarity": "Common"
+                    },
+                    {
+                      "fruit": "Dark-Dark Fruit",
+                      "user": "Marshall D. Teach",
+                      "type": "Logia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/e/e4/Marshall_D._Teach_Anime_Pre_Timeskip_Infobox.png/revision/latest/scale-to-width/360?cb=20230406003453",
+                      "rarity": "Legendary"
+                    },
+                    {
+                      "fruit": "Revive-Revive Fruit",
+                      "user": "Brook",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/e/e7/Brook_Anime_Pre_Timeskip_Infobox.png/revision/latest?cb=20131130081430",
+                      "rarity": "Rare"
+                    },
+                    {
+                      "fruit": "Hollow-Hollow Fruit",
+                      "user": "Perona",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Perona_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20221124200121",
+                      "rarity": "Rare"
+                    },
+                    {
+                      "fruit": "Shadow-Shadow Fruit",
+                      "user": "Gecko Moria",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/b/be/Gecko_Moria_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20181127062446",
+                      "rarity": "Epic"
+                    },
+                    {
+                      "fruit": "Clear-Clear Fruit",
+                      "user": "Absalom / Shiryu",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/5/56/Absalom_Anime_Infobox.png/revision/latest?cb=20230101154942",
+                      "rarity": "Uncommon"
+                    },
+                    {
+                      "fruit": "Paw-Paw Fruit",
+                      "user": "Bartholomew Kuma",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/8/8d/Bartholomew_Kuma_Anime_Infobox.png/revision/latest?cb=20221012030835",
+                      "rarity": "Epic"
+                    },
+                    {
+                      "fruit": "Magnet-Magnet Fruit",
+                      "user": "Eustass Kid",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/4/47/Eustass_Kid_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20240505021859",
+                      "rarity": "Epic"
+                    },
+                    {
+                      "fruit": "Op-Op Fruit",
+                      "user": "Trafalgar D. Water Law",
+                      "type": "Paramecia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/4/4d/Trafalgar_D._Water_Law_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20230124163510",
+                      "rarity": "Legendary"
+                    },
+                    {
+                      "fruit": "Glint-Glint Fruit",
+                      "user": "Borsalino",
+                      "type": "Logia",
+                      "image": "https://static.wikia.nocookie.net/onepiece/images/1/14/Borsalino_Anime_Infobox.png/revision/latest?cb=20190603023753",
+                      "rarity": "Legendary"
+                    },                  
+                        { "fruit": "Age-Age Fruit", "user": "Jewelry Bonney", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Jewelry_Bonney_Anime_Pre_Timeskip_Infobox.png/revision/latest?cb=20230122231048" },
+                        { "fruit": "Castle-Castle Fruit", "user": "Capone Bege", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/9/99/Capone_Bege_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20160911163015" },
+                        { "fruit": "Muscle-Muscle Fruit", "user": "Urouge", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/f/fb/Urouge_Anime_Infobox.png/revision/latest?cb=20230126223235" },
+                        { "fruit": "Dragon-Dragon Fruit, Model: Allosaurus", "user": "X Drake", "type": "Zoan", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/0/04/X_Drake_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200209080003" },
+                        { "fruit": "Straw-Straw Fruit", "user": "Basil Hawkins", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/f/f8/Basil_Hawkins_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20230906163534" },
+                        { "fruit": "Tone-Tone Fruit", "user": "Scratchmen Apoo", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d0/Scratchmen_Apoo_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20210426143015" },
+                        { "fruit": "Love-Love Fruit", "user": "Boa Hancock", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Boa_Hancock_Anime_Infobox.png/revision/latest?cb=20230126022456" },
+                        { "fruit": "Snake-Snake Fruit, Model: Anaconda", "user": "Boa Sandersonia", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/a/aa/Sandersonia_Digitally_Colored_Manga.png/revision/latest?cb=20211109104707" },
+                        { "fruit": "Snake-Snake Fruit, Model: King Cobra", "user": "Boa Marigold", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/1/17/Marigold_at_age_13.png/revision/latest?cb=20211208204126" },
+                        { "fruit": "Venom-Venom Fruit", "user": "Magellan", "type": "Paramecia", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/8/8a/Magellan_Digitally_Colored_Manga.png/revision/latest?cb=20211108103931" },
+                        { "fruit": "Float-Float Fruit", "user": "Shiki", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Shiki_with_Legs.png/revision/latest?cb=20231014001932" },
+                        { "fruit": "Horm-Horm Fruit", "user": "Emporio Ivankov", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/d/de/Emporio_Ivankov_Anime_Infobox.png/revision/latest?cb=20180624120810" },
+                        { "fruit": "Snip-Snip Fruit", "user": "Inazuma", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Inazuma_Anime_Infobox.png/revision/latest?cb=20221031183404" },
+                        { "fruit": "Wing-Wing Fruit", "user": "Laffitte", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/0/00/Laffitte_Anime_Infobox.png/revision/latest?cb=20161029211833" },
+                        { "fruit": "Tremor-Tremor Fruit", "user": "Edward Newgate / Marshall D. Teach", "type": "Paramecia", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Edward_Newgate_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20220926165737" },
+                        { "fruit": "Dog-Dog Fruit, Model: Dalmatian", "user": "Dalmatian", "type": "Zoan", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/a/a8/Dalmatian_Anime_Infobox.png/revision/latest?cb=20160818201819" },
+                        { "fruit": "Twinkle-Twinkle Fruit", "user": "Jozu", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/6/61/Jozu_Anime_Infobox.png/revision/latest?cb=20220702104233" },
+                        { "fruit": "Cater-Cater Fruit", "user": "Epoida", "type": "Zoan", "rarity": "Common", "image": "https://static.wikia.nocookie.net/onepiece/images/e/e3/Epoida_Anime_Infobox.png/revision/latest?cb=20250303151401" },
+                        { "fruit": "Bird-Bird Fruit, Model: Phoenix", "user": "Marco", "type": "Zoan", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/2/2c/Marco_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20221010015200" },
+                        { "fruit": "Pocket-Pocket Fruit", "user": "Blamenco", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/f/fe/Blamenco_Anime_Concept_Art.png/revision/latest?cb=20180910153722" },
+                        { "fruit": "Mag-Mag Fruit", "user": "Sakazuki", "type": "Logia", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sakazuki_Anime_Post_Timeskip_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20220829052511" },
+                        { "fruit": "Wash-Wash Fruit", "user": "Tsuru", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/9/91/Tsuru_Anime_Infobox.png/revision/latest?cb=20240730231455" },
+                        { "fruit": "Spider-Spider Fruit", "user": "Onigumo", "type": "Zoan", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/d/dc/Onigumo_Anime_Infobox.png/revision/latest?cb=20221123171305" },
+                        { "fruit": "Human-Human Fruit, Model: Buddha", "user": "Sengoku", "type": "Zoan", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/2/24/Sengoku_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20210208064630" },
+                        { "fruit": "Huge-Huge Fruit", "user": "Sanjuan Wolf", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/6/62/Sanjuan_Wolf_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20241006021549" },
+                        { "fruit": "Swamp-Swamp Fruit", "user": "Caribou", "type": "Logia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Caribou_Anime_Infobox.png/revision/latest?cb=20221124030700" },
+                        { "fruit": "Mark-Mark Fruit", "user": "Vander Decken IX", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Vander_Decken_IX_Anime_Infobox.png/revision/latest?cb=20130504034305" },
+                        { "fruit": "Soul-Soul Fruit", "user": "Charlotte Linlin", "type": "Paramecia", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Charlotte_Linlin_Anime_Infobox.png/revision/latest?cb=20180423150804" },
+                        { "fruit": "Turtle-Turtle Fruit", "user": "Pekoms", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/1/15/Pekoms_Anime_Infobox.png/revision/latest?cb=20221107145536" },
+                        { "fruit": "Egg-Egg Fruit", "user": "Tamago", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/4/49/Tamago_Anime_Infobox.png/revision/latest?cb=20171126235414" },
+                        { "fruit": "Gas-Gas Fruit", "user": "Caesar Clown", "type": "Logia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/a/a6/Caesar_Clown_Anime_Infobox.png/revision/latest?cb=20221101011307" },
+                        { "fruit": "Garb-Garb Fruit", "user": "Kin'emon", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/e/ec/Kin%27emon_Anime_Infobox.png/revision/latest?cb=20191124100115" },
+                        { "fruit": "Sala-Sala Fruit, Model: Axolotl", "user": "Smiley", "type": "Zoan", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/5/5b/Smiley_Full_Body.png/revision/latest?cb=20220108205624" },
+                        { "fruit": "Snow-Snow Fruit", "user": "Monet", "type": "Logia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/9/98/Monet_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20140616000310" },
+                        { "fruit": "Arms-Arms Fruit", "user": "Baby 5", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Baby_5_Anime_Infobox.png/revision/latest?cb=20221011013323" },
+                        { "fruit": "Spin-Spin Fruit", "user": "Buffalo", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/a/ab/Buffalo_Anime_Infobox.png/revision/latest?cb=20131104002420" },
+                        { "fruit": "Stick-Stick Fruit", "user": "Trebol", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/villains/images/a/ad/Trebol_Anime_Concept_Art_copy.png/revision/latest?cb=20240830233110" },
+                        { "fruit": "Hobby-Hobby Fruit", "user": "Sugar", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/e/e9/Sugar_Anime_Infobox.png/revision/latest?cb=20141005232110" },
+                        { "fruit": "Press-Press Fruit", "user": "Issho", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/e/e8/Issho_Anime_Infobox.png/revision/latest?cb=20220718140829" },
+                        { "fruit": "Barrier-Barrier Fruit", "user": "Kurozumi Semimaru / Bartolomeo", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/e/eb/Bartolomeo_Anime_Infobox.png/revision/latest?cb=20221027202808" },
+                        { "fruit": "Stitch-Stitch Fruit", "user": "Leo", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/f/f0/Leo_Anime_Concept_Art.png/revision/latest?cb=20180904233641" },
+                        { "fruit": "Glare-Glare Fruit", "user": "Viola", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Viola_Anime_Infobox.png/revision/latest?cb=20221027021751" },
+                        { "fruit": "Art-Art Fruit", "user": "Giolla", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/2/21/Giolla_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20221117034510" },
+                        { "fruit": "Jacket-Jacket Fruit", "user": "Kelly Funk", "type": "Paramecia", "rarity": "Common", "image": "https://static.wikia.nocookie.net/onepiece/images/0/0b/Kelly_Funk_Anime_Full_Body.png/revision/latest?cb=20150527165530" },
+                        { "fruit": "Bug-Bug Fruit, Model: Rhinoceros Beetle", "user": "Kabu", "type": "Zoan", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/4/45/Kabu_Anime_Infobox.png/revision/latest?cb=20141006004747" },
+                        { "fruit": "Bug-Bug Fruit, Model: Hornet", "user": "Bian", "type": "Zoan", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/3/3b/Bian_Anime_Infobox.png/revision/latest?cb=20140609155533" },
+                        { "fruit": "Pop-Pop Fruit", "user": "Gladius", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/3/3d/Gladius_Anime_Infobox.png/revision/latest?cb=20231025224459" },
+                        { "fruit": "Swim-Swim Fruit", "user": "Señor Pink", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/4/48/Senor_Pink_Anime_Infobox.png/revision/latest?cb=20241014120619" },
+                        { "fruit": "Ton-Ton Fruit", "user": "Machvise", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/6/6e/Machvise_Anime_Infobox.png/revision/latest?cb=20140916075009" },
+                        { "fruit": "Ripple-Ripple Fruit", "user": "Diamante", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/7/72/Diamante_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20151011043134" },
+                        { "fruit": "Stone-Stone Fruit", "user": "Pica", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/a/a4/Pica_Anime_Infobox.png/revision/latest?cb=20221117040111" },
+                        { "fruit": "Brush-Brush Fruit", "user": "Kurozumi Kanjuro", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kurozumi_Kanjuro_Anime_Infobox.png/revision/latest?cb=20150503144042" },
+                        { "fruit": "Calm-Calm Fruit", "user": "Donquixote Rosinante", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/7/71/Donquixote_Rosinante_Anime_Infobox.png/revision/latest?cb=20150802160734" },
+                        { "fruit": "Heal-Heal Fruit", "user": "Mansherry", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/5/54/Mansherry_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20161221094836" },
+                        { "fruit": "Eleph-Eleph Fruit, Model: Mammoth", "user": "Jack", "type": "Zoan", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/villains/images/1/1b/Jack_Anime_Concept_29.png/revision/latest?cb=20240830233845" },
+                        { "fruit": "Scroll-Scroll Fruit", "user": "Raizo", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/2/23/Raizo_Anime_Infobox.png/revision/latest?cb=20161218152812" },
+                        { "fruit": "Butter-Butter Fruit", "user": "Charlotte Galette", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/7/71/Charlotte_Galette_Anime_Infobox.png/revision/latest?cb=20180721222625" },
+                        { "fruit": "Mirror-Mirror Fruit", "user": "Charlotte Brûlée", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/c/c3/Mira_Mira_no_Mi_Infobox.png/revision/latest?cb=20170709205701" },
+                        { "fruit": "Lick-Lick Fruit", "user": "Charlotte Perospero", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/7/7e/Charlotte_Perospero_Anime_Infobox.png/revision/latest?cb=20211101122146" },
+                        { "fruit": "Bis-Bis Fruit", "user": "Charlotte Cracker", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/6/64/Charlotte_Cracker_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20170730021804" },
+                        { "fruit": "Book-Book Fruit", "user": "Charlotte Mont-d'Or", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d4/Charlotte_Mont-d%27Or_Anime_Infobox.png/revision/latest?cb=20180325090436" },
+                        { "fruit": "Cream-Cream Fruit", "user": "Charlotte Opera", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/5/56/Charlotte_Opera_Anime_Infobox.png/revision/latest?cb=20170528044001" },
+                        { "fruit": "Wring-Wring Fruit", "user": "Charlotte Smoothie", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/c/c5/Charlotte_Smoothie_Anime_Infobox.png/revision/latest?cb=20180423150946" },
+                        { "fruit": "Memo-Memo Fruit", "user": "Charlotte Pudding", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/f/fa/Pudding%27s_True_Nature.png/revision/latest?cb=20171210021950" },
+                        { "fruit": "Bird-Bird Fruit, Model: Albatross", "user": "Morgans", "type": "Zoan", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/8/87/Morgans_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20240526034406" },
+                        { "fruit": "Mochi-Mochi Fruit", "user": "Charlotte Katakuri", "type": "Paramecia", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/2/2e/Charlotte_Katakuri_Anime_Infobox.png/revision/latest?cb=20230204155539" },
+                        { "fruit": "Puff-Puff Fruit", "user": "Charlotte Daifuku", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/c/cd/Charlotte_Daifuku_Anime_Infobox.png/revision/latest?cb=20230215154338" },
+                        { "fruit": "Heat-Heat Fruit", "user": "Charlotte Oven", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/8/8f/Oven_Anime_Concept_Art.png/revision/latest?cb=20180226160021" },
+                        { "fruit": "Cook-Cook Fruit", "user": "Streusen", "type": "Paramecia", "rarity": "Uncommon", "image": "https://example.com/streusen.jpg" },
+                        { "fruit": "Pile-Pile Fruit", "user": "Charlotte Newly", "type": "Paramecia", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/8/88/Charlotte_Newshi_Anime_Infobox.png/revision/latest?cb=20190313030910" },
+                        { "fruit": "Pump-Pump Fruit", "user": "Belo Betty", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/dd/Belo_Betty_Anime_Infobox.png/revision/latest?cb=20240903112156" },
+                        { "fruit": "Push-Push Fruit", "user": "Morley", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/b/b7/Morley_Anime_Concept_Art.png/revision/latest?cb=20241122165628" },
+                        { "fruit": "Soot-Soot Fruit", "user": "Karasu", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/9/9a/Karasu_Anime_Infobox.png/revision/latest?cb=20190414113619" },
+                        { "fruit": "Millet-Millet Fruit", "user": "Kurozumi Tama", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/6/6d/Kurozumi_Tama_Anime_Infobox.png/revision/latest?cb=20210210051806" },
+                        { "fruit": "Dog-Dog Fruit, Model: Tanuki", "user": "Bunbuku", "type": "Zoan", "rarity": "Uncommon", "image": "https://static.wikia.nocookie.net/onepiece/images/c/c6/Bunbuku_Anime_Infobox.png/revision/latest/scale-to-width/360?cb=20190721100105" },
+                        { "fruit": "Time-Time Fruit", "user": "Kozuki Toki", "type": "Paramecia", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/a/ad/Kouzuki_Toki_Anime_Infobox.png/revision/latest?cb=20240923154828" },
+                        { "fruit": "Fish-Fish Fruit, Model: Azure Dragon", "user": "Kaido", "type": "Zoan", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/villains/images/8/8f/2dda81e2a40a146612105853fc98cd53.jpg/revision/latest?cb=20211018092917" },
+                        { "fruit": "Ripe-Ripe Fruit", "user": "Shinobu", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/3/3f/Shinobu_Anime_Infobox.png/revision/latest?cb=20241015051553" },
+                        { "fruit": "Dog-Dog Fruit, Model: Nine-Tailed Fox", "user": "Catarina Devon", "type": "Zoan", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/4/4a/Catarina_Devon_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200112041332" },
+                        { "fruit": "Snake-Snake Fruit, Model: Yamata no Orochi", "user": "Kurozumi Orochi", "type": "Zoan", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/4/49/Kurozumi_Orochi_Anime_Infobox.png/revision/latest?cb=20230911061118" },
+                        { "fruit": "Dragon-Dragon Fruit, Model: Spinosaurus", "user": "Page One", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/4/46/Page_One_Anime_Infobox.png/revision/latest?cb=20211128115519" },
+                        { "fruit": "Dragon-Dragon Fruit, Model: Pteranodon", "user": "King", "type": "Zoan", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d5/King_Anime_Concept_Art.png/revision/latest?cb=20200806210008" },
+                        { "fruit": "Human-Human Fruit, Model: Onyudo", "user": "Onimaru", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/de/Gyukimaru_Anime_Concept_Art.png/revision/latest?cb=20210328113350" },
+                        { "fruit": "Dragon-Dragon Fruit, Model: Brachiosaurus", "user": "Queen", "type": "Zoan", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/d/da/Queen_Anime_Concept_Art.png/revision/latest?cb=20200806210027" },
+                        { "fruit": "Dragon-Dragon Fruit, Model: Pachycephalosaurus", "user": "Ulti", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/0/08/Ulti_Anime_Concept_Art.png/revision/latest?cb=20220927023434" },
+                        { "fruit": "Dog-Dog Fruit, Model: Okuchi no Makami", "user": "Yamato", "type": "Zoan", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/4/40/Yamato_Manga_Infobox.png/revision/latest?cb=20220302054134" },
+                        { "fruit": "Dragon-Dragon Fruit, Model: Triceratops", "user": "Sasaki", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d7/Sasaki_Anime_Infobox.png/revision/latest?cb=20211205140441" },
+                        { "fruit": "Spider-Spider Fruit, Model: Rosamygale Grauvogeli", "user": "Black Maria", "type": "Zoan", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Black_Maria_Anime_Infobox.png/revision/latest?cb=20210808144206" },
+                        { "fruit": "Cat-Cat Fruit, Model: Saber Tiger", "user": "Who's-Who", "type": "Zoan", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/6/6c/Neko_Neko_no_Mi%2C_Model_Saber_Tiger_Human-Beast_Form.png/revision/latest?cb=20221106025519" },
+                        { "fruit": "Woods-Woods Fruit", "user": "Aramaki", "type": "Logia", "rarity": "Legendary", "image": "https://static.wikia.nocookie.net/onepiece/images/0/05/Aramaki_Anime_Infobox.png/revision/latest?cb=20240930142146" },
+                        { "fruit": "Sick-Sick Fruit", "user": "Doc Q", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/9/9d/Doc_Q_Digitally_Colored_Manga.png/revision/latest?cb=20211114001150" },
+                        { "fruit": "Warp-Warp Fruit", "user": "Van Augur", "type": "Paramecia", "rarity": "Epic", "image": "https://static.wikia.nocookie.net/onepiece/images/8/81/Augur_Digitally_Colored_Manga.png/revision/latest?cb=20211113194204" },
+                        { "fruit": "Strong-Strong Fruit", "user": "Jesus Burgess", "type": "Paramecia", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/0/0a/Burgess_Anime_Concept_Art.png/revision/latest?cb=20180905183613" },
+                        { "fruit": "Horse-Horse Fruit, Model: Pegasus", "user": "Stronger", "type": "Zoan", "rarity": "Rare", "image": "https://static.wikia.nocookie.net/onepiece/images/d/d3/Stronger_Anime_Infobox.png/revision/latest?cb=20231222225633" },
+        {
+          "fruit": "Brain-Brain Fruit",
+          "user": "Vegapunk",
+          "type": "Paramecia",
+          "rarity": "Legendary",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/b/b9/Vegapunk_Anime_Infobox.png/revision/latest?cb=20240428020834"
+        },
+        {
+          "fruit": "Island-Island Fruit",
+          "user": "Avalo Pizarro",
+          "type": "Paramecia",
+          "rarity": "Rare",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/e/ef/Avalo_Pizarro_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20200112042123"
+        },
+        {
+          "fruit": "Glug-Glug Fruit",
+          "user": "Vasco Shot",
+          "type": "Paramecia",
+          "rarity": "Uncommon",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/b/bc/Vasco_Shot_Anime_Concept_Art.png/revision/latest?cb=20180910230044"
+        },
+        {
+          "fruit": "Glorp-Glorp Fruit",
+          "user": "Prince Grus",
+          "type": "Paramecia",
+          "rarity": "Rare",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/2/24/Prince_Grus_Anime_Infobox.png/revision/latest?cb=20240804021734"
+        },
+        {
+          "fruit": "Whip-Whip Fruit",
+          "user": "Kujaku",
+          "type": "Paramecia",
+          "rarity": "Uncommon",
+          "image": "https://static.wikia.nocookie.net/onepiece/images/8/84/Kujaku_Anime_Infobox.png/revision/latest?cb=20240811124929"
+        }
+      ]
+      
