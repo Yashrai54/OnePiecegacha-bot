@@ -12,6 +12,8 @@
   "description": "",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "node-telegram-bot-api": "^0.66.0"
+    "express": "^5.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9"
   }
 }
