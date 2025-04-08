@@ -4,12 +4,12 @@ function getRandomFruit() {
     const rand = Math.random();
 
     // Adjust these based on how common each rarity should be
-    let rarity;
-    if (rand < 0.45) rarity = 'Common';
-    else if (rand < 0.70) rarity = 'Uncommon';
-    else if (rand < 0.85) rarity = 'Rare';
-    else if (rand < 0.95) rarity = 'Legendary';
-    else rarity = 'Mythical';
+    if (rand < 0.40) rarity = 'Common';         // 40%
+else if (rand < 0.65) rarity = 'Uncommon';  // 25%
+else if (rand < 0.80) rarity = 'Rare';      // 15%
+else if (rand < 0.90) rarity = 'Epic';      // 10%
+else if (rand < 0.97) rarity = 'Legendary'; // 7%
+else rarity = 'Mythical';                   // 3
 
     // Fallback in case selected rarity has no entries
     let filtered = fruits.filter(f => f.rarity === rarity);
