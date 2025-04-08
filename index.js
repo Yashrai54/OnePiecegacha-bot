@@ -155,42 +155,70 @@ bot.onText(/\/bounty/, async (msg) => {
   });
 });
 const pendingFights = new Map(); // userId -> { challengerId, timeout }
-bot.onText(/\/fight (.+)/, async (msg, match) => {
+const pvpCooldowns = new Map();
+const PVP_COOLDOWN = 5 * 60 * 1000; // 5 minutes in milliseconds
+// Example using a Map for pending fights
+
+bot.onText(/\/fight(?:\s+@?(\w+))?/, async (msg, match) => {
   const chatId = msg.chat.id;
   const challengerId = msg.from.id;
-  const challengerUsername = msg.from.username || `User_${challengerId}`;
-  const mentioned = match[1].replace('@', '').trim();
+  const challengerUsername = msg.from.username;
 
-  const defenderData = await bot.getChatMember(chatId, mentioned).catch(() => null);
-  if (!defenderData) return bot.sendMessage(chatId, '❌ Could not find the mentioned user.');
+  let targetId;
+  let targetUsername;
 
-  const defenderId = defenderData.user.id;
-  const defenderUsername = defenderData.user.username || `User_${defenderId}`;
-
-  if (challengerId === defenderId) {
-    return bot.sendMessage(chatId, `🌀 You can't challenge yourself.`);
+  if (msg.reply_to_message) {
+    targetId = msg.reply_to_message.from.id;
+    targetUsername = msg.reply_to_message.from.username || `User_${targetId}`;
+  } else if (match[1]) {
+    targetUsername = match[1].replace('@', '');
+    const targetUser = await Inventory.findOne({ username: targetUsername });
+    if (!targetUser) {
+      return bot.sendMessage(chatId, `❌ Could not find user @${targetUsername}.`, {
+        reply_to_message_id: msg.message_id
+      });
+    }
+    targetId = targetUser.userId;
+  } else {
+    return bot.sendMessage(chatId, '⚠️ Please reply to a user or tag a username to fight.', {
+      reply_to_message_id: msg.message_id
+    });
   }
 
-  if (pendingFights.has(defenderId)) {
-    return bot.sendMessage(chatId, `⚔️ ${defenderUsername} already has a pending fight.`);
+  if (targetId === challengerId) {
+    return bot.sendMessage(chatId, '🧠 You can’t fight yourself.', {
+      reply_to_message_id: msg.message_id
+    });
   }
 
-  const challengerInv = await Inventory.findOne({ userId: challengerId });
-  const defenderInv = await Inventory.findOne({ userId: defenderId });
-
-  if (!challengerInv || challengerInv.fruits.length === 0 || !defenderInv || defenderInv.fruits.length === 0) {
-    return bot.sendMessage(chatId, `❗ Both players must have at least 1 fruit to fight.`);
+  if (pendingFights.has(targetId)) {
+    return bot.sendMessage(chatId, `⚔️ @${targetUsername} already has a pending challenge.`);
   }
-
-  bot.sendMessage(chatId, `⚔️ @${defenderUsername}, you have been challenged by @${challengerUsername}!\n\nReply with /accept to fight! ⏳ (Expires in 30s)`);
 
   const timeout = setTimeout(() => {
-    pendingFights.delete(defenderId);
-    bot.sendMessage(chatId, `⌛ @${defenderUsername} did not accept the challenge in time.`);
-  }, 30000);
+    pendingFights.delete(targetId);
+    bot.sendMessage(chatId, `⌛ @${targetUsername} did not accept the challenge in time.`);
+  }, 60 * 1000); // 1 minute to accept
 
-  pendingFights.set(defenderId, { challengerId, timeout, chatId });
+  pendingFights.set(targetId, {
+    challengerId,
+    chatId,
+    timeout
+  });
+  const now = Date.now();
+if (pvpCooldowns.has(challengerId) && now - pvpCooldowns.get(challengerId) < PVP_COOLDOWN) {
+  const secondsLeft = Math.ceil((PVP_COOLDOWN - (now - pvpCooldowns.get(challengerId))) / 1000);
+  return bot.sendMessage(chatId, `⏳ Please wait ${secondsLeft} seconds before challenging again.`, {
+    reply_to_message_id: msg.message_id
+  });
+}
+pvpCooldowns.set(challengerId, now);
+  bot.sendMessage(chatId, `🥊 @${challengerUsername} has challenged @${targetUsername} to a fight!\n\n@${targetUsername}, type /accept to begin the fight!`, {
+    reply_to_message_id: msg.message_id
+  });
 });
+
+
 bot.onText(/\/accept/, async (msg) => {
   const defenderId = msg.from.id;
   const defenderUsername = msg.from.username || `User_${defenderId}`;
