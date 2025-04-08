@@ -7,7 +7,7 @@ const Inventory = require('./models/inventory');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const COOLDOWN_TIME = 60 * 1000; // 1 minute cooldown
+const COOLDOWN_TIME = 5* 60 * 1000; // 1 minute cooldown
 const cooldown = new Map();
 
 // ✅ Define bot in webhook mode
