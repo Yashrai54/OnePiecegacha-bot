@@ -4,19 +4,20 @@ const express = require('express');
 const app = express();
 const getRandomFruit=require('./utils/raritypicker')
 const PORT = process.env.PORT || 3000;
+const mongoose = require('mongoose');
+const Inventory = require('./models/Inventory');
 
-// Initialize bot (Webhook mode for Render)
-const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN);
-
-// Middleware to parse JSON
+mongoose.connect(process.env.MONGO_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(() => console.log('✅ Connected to MongoDB'))
+  .catch((err) => console.error('❌ MongoDB connection error:', err));
 app.use(express.json());
 
-// Health check endpoint (required for Render)
 app.get('/', (req, res) => {
   res.send('Devil Fruit Bot is running!');
 });
 
-// Set webhook (only needed once)
 app.post(`/webhook`, (req, res) => {
   bot.processUpdate(req.body);
   res.sendStatus(200);
@@ -26,12 +27,10 @@ app.listen(PORT, () => {
   bot.setWebHook(`https://onepiecegacha-bot.onrender.com/webhook`);
 });
 
-let inventory = {}; 
-
 const cooldown = new Map();
 const COOLDOWN_TIME = 60 * 1000; 
 
-bot.onText(/\/pull/, (msg) => {
+bot.onText(/\/pull/, async (msg) => {
   const chatId = msg.chat.id;
   const userId = msg.from.id;
   const username = msg.from.username || `User_${userId}`;
@@ -47,68 +46,74 @@ bot.onText(/\/pull/, (msg) => {
   cooldown.set(userId, now);
 
   const { fruit, user, type, image, rarity } = getRandomFruit();
-  const caption = `🎯 *You Pulled a Devil Fruit!*\n\n🍇 *Fruit:* ${fruit}\n👤 *User:* ${user}\n📦 *Type:* ${type} (${rarity})`;
+  const userTag = msg.from.username 
+  ? `@${msg.from.username}` 
+  : `[${msg.from.first_name}](tg://user?id=${msg.from.id})`;
 
-  if (!inventory[userId]) {
-    inventory[userId] = {
-      username: username,
+const caption = `🎯 *${userTag} Pulled a Devil Fruit!*\n\n🍇 *Fruit:* ${fruit}\n👤 *Character:* ${user}\n📦 *Type:* ${type} (${rarity})`;
+
+  let userInventory = await Inventory.findOne({ userId });
+
+  if (!userInventory) {
+    userInventory = new Inventory({
+      userId,
+      username,
       fruits: []
-    };
+    });
   }
 
-  const fruitExists = inventory[userId].fruits.some(
-    existingFruit => existingFruit.fruit === fruit
-  );
-
+  const fruitExists = userInventory.fruits.some(f => f.fruit === fruit);
   if (fruitExists) {
-    bot.sendPhoto(chatId, image, { 
+    return bot.sendPhoto(chatId, image, { 
       caption: `${caption}\n\n⚠️ You already have this fruit in your inventory!`, 
       parse_mode: 'Markdown' 
     });
-  } else {
-    // Add the new fruit to inventory
-    inventory[userId].fruits.push({ fruit, user, type, image, rarity });
-    bot.sendPhoto(chatId, image, { caption, parse_mode: 'Markdown' });
   }
+
+  userInventory.fruits.push({ fruit, user, type, image, rarity });
+  await userInventory.save();
+
+  bot.sendPhoto(chatId, image, { caption, parse_mode: 'Markdown' });
 });
 
-bot.onText(/\/inventory/, (msg) => {
+bot.onText(/\/inventory/, async (msg) => {
   const userId = msg.from.id;
   const chatId = msg.chat.id;
 
-  if (!inventory[userId] || inventory[userId].fruits.length === 0) {
-    bot.sendMessage(chatId, '🗃️ Your inventory is empty. Use /pull to get your first Devil Fruit!');
-    return;
+  const userInventory = await Inventory.findOne({ userId });
+
+  if (!userInventory || userInventory.fruits.length === 0) {
+    return bot.sendMessage(chatId, '🗃️ Your inventory is empty. Use /pull to get your first Devil Fruit!');
   }
 
-  const list = inventory[userId].fruits
+  const list = userInventory.fruits
     .map((item, i) => `${i + 1}. *${item.fruit}* (${item.rarity}) — ${item.user}`)
     .join('\n');
 
   bot.sendMessage(chatId, `📜 *Your Devil Fruit Inventory:*\n\n${list}`, { parse_mode: 'Markdown' });
 });
-
-bot.onText(/\/leaderboard/, (msg) => {
+bot.onText(/\/leaderboard/, async (msg) => {
   const chatId = msg.chat.id;
 
-  const leaderboard = Object.entries(inventory)
-    .map(([userId, userData]) => ({
-      userId,
-      username: userData.username,
-      count: userData.fruits.length
+  const allInventories = await Inventory.find();
+  if (allInventories.length === 0) {
+    return bot.sendMessage(chatId, '🏅 No one has pulled any Devil Fruits yet!');
+  }
+
+  const leaderboard = allInventories
+    .map(user => ({
+      userId: user.userId,
+      username: user.username || `User_${user.userId}`,
+      count: user.fruits.length
     }))
     .sort((a, b) => b.count - a.count)
     .slice(0, 10);
 
-  if (leaderboard.length === 0) {
-    return bot.sendMessage(chatId, '🏅 No one has pulled any Devil Fruits yet!');
-  }
-
   let text = '<b>🏆 Top Devil Fruit Collectors:</b>\n\n';
   leaderboard.forEach((entry, index) => {
-    const displayName = entry.userId === msg.from.id 
+    const displayName = entry.userId == msg.from.id 
       ? '<b>You</b>' 
-      : `@${entry.username || `User_${entry.userId}`}`;
+      : `@${entry.username}`;
     text += `${index + 1}. ${displayName} - ${entry.count} fruits\n`;
   });
 
