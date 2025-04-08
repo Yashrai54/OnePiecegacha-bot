@@ -21,3 +21,5 @@ const inventorySchema = new mongoose.Schema({
     default: 0
   }
 });
+
+module.exports = mongoose.model('Inventory', inventorySchema); // ✅ Exporting model
