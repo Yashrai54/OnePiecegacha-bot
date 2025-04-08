@@ -5,7 +5,7 @@ const app = express();
 const getRandomFruit=require('./utils/raritypicker')
 const PORT = process.env.PORT || 3000;
 const mongoose = require('mongoose');
-const Inventory = require('./models/Inventory');
+const Inventory = require('./models/inventory');
 
 mongoose.connect(process.env.MONGO_URI, {
   useNewUrlParser: true,
@@ -46,11 +46,9 @@ bot.onText(/\/pull/, async (msg) => {
   cooldown.set(userId, now);
 
   const { fruit, user, type, image, rarity } = getRandomFruit();
-  const userTag = msg.from.username 
-  ? `@${msg.from.username}` 
-  : `[${msg.from.first_name}](tg://user?id=${msg.from.id})`;
 
-const caption = `🎯 *${userTag} Pulled a Devil Fruit!*\n\n🍇 *Fruit:* ${fruit}\n👤 *Character:* ${user}\n📦 *Type:* ${type} (${rarity})`;
+
+const caption = `🎯 Pulled a Devil Fruit!*\n\n🍇 *Fruit:* ${fruit}\n👤 *Character:* ${user}\n📦 *Type:* ${type} (${rarity})`;
 
   let userInventory = await Inventory.findOne({ userId });
 
@@ -66,7 +64,8 @@ const caption = `🎯 *${userTag} Pulled a Devil Fruit!*\n\n🍇 *Fruit:* ${frui
   if (fruitExists) {
     return bot.sendPhoto(chatId, image, { 
       caption: `${caption}\n\n⚠️ You already have this fruit in your inventory!`, 
-      parse_mode: 'Markdown' 
+      parse_mode: 'Markdown',
+      reply_to_message_id:msg.message_id
     });
   }
 
