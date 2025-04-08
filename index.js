@@ -11,7 +11,7 @@ const COOLDOWN_TIME = 60 * 1000; // 1 minute cooldown
 const cooldown = new Map();
 
 // ✅ Define bot in webhook mode
-const bot = new TelegramBot(process.env.TELEGRAM_TOKEN);
+const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN);
 
 // ✅ MongoDB connection
 mongoose.connect(process.env.MONGO_URI, {
