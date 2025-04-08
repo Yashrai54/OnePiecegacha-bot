@@ -66,7 +66,10 @@ bot.onText(/\/pull/, async (msg) => {
     userInventory = new Inventory({ userId, username, fruits: [], bounty: 0 });
   }
 
-  const alreadyOwned = userInventory.fruits.some(f => f.fruit === fruit);
+  const alreadyOwned = userInventory.fruits.some(
+  f => f.user === fruit.user && f.fruit === fruit.fruit && f.type === fruit.type
+);
+
   if (alreadyOwned) {
     return bot.sendPhoto(chatId, image, {
       caption: `${caption}\n\n⚠️ You already have this fruit in your inventory!`,
