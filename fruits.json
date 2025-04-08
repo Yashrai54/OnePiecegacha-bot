@@ -445,448 +445,448 @@
           "image": "https://static.wikia.nocookie.net/onepiece/images/8/84/Kujaku_Anime_Infobox.png/revision/latest?cb=20240811124929"
         },
   {
-    "name": "Monkey D. Luffy",
+    "user": "Monkey D. Luffy",
     "fruit": "Gomu Gomu no Mi",
     "type": "Observation",
     "rarity": "Epic",
     "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/luffy-using-haki-in-one-piece.jpg"
   },
   {
-    "name": "Charlotte Katakuri",
+    "user": "Charlotte Katakuri",
     "fruit": "Mochi Mochi no Mi",
     "type": "Observation (Future Sight)",
     "rarity": "Mythical",
     "image": "https://www.gamescooper.com/wp-content/uploads/2023/09/one-piece-charlotte-katakuri-introduction.png"
   },
   {
-    "name": "Dracule Mihawk",
+    "user": "Dracule Mihawk",
     "fruit": "None",
     "type": "Observation",
     "rarity": "Legendary",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/bf/Dracule_Mihawk_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20151222105910"
   },
   {
-    "name": "Shanks",
+    "user": "Shanks",
     "fruit": "None",
     "type": "Observation (Future Sight)",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/66/Shanks_Anime_Infobox.png/revision/latest?cb=20240829145447"
   },
   {
-    "name": "Fujitora",
+    "user": "Fujitora",
     "fruit": "Zushi Zushi no Mi",
     "type": "Observation",
     "rarity": "Legendary",
     "image": "https://qph.cf2.quoracdn.net/main-qimg-93b898626e26f31a5c18aa6d40e9d52d-pjlq"
   },
   {
-    "name": "Sanji",
+    "user": "Sanji",
     "fruit": "None",
     "type": "Observation (Specialist)",
     "rarity": "Epic",
     "image": "https://i.pinimg.com/736x/c0/af/a0/c0afa0db11cb59ef37b4a82995ba8705.jpg"
   },
   {
-    "name": "Roronoa Zoro",
+    "user": "Roronoa Zoro",
     "fruit": "None",
     "type": "Observation",
     "rarity": "Epic",
     "image": "https://upload.wikimedia.org/wikipedia/en/a/a4/Roronoa_Zoro.jpg"
   },
   {
-    "name": "Silvers Rayleigh",
+    "user": "Silvers Rayleigh",
     "fruit": "None",
     "type": "Observation",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b1/Silvers_Rayleigh_Anime_Infobox.png/revision/latest?cb=20230601221758"
   },
   {
-    "name": "Boa Hancock",
+    "user": "Boa Hancock",
     "fruit": "Mero Mero no Mi",
     "type": "Observation",
     "rarity": "Epic",
     "image": "https://static.wikia.nocookie.net/five-world-war/images/8/81/Hancock_and_Salome_render.png/revision/latest/thumbnail/width/360/height/360?cb=20210205082450"
   },
   {
-    "name": "Donquixote Doflamingo",
+    "user": "Donquixote Doflamingo",
     "fruit": "Ito Ito no Mi",
     "type": "Observation",
     "rarity": "Epic",
     "image": "https://i.pinimg.com/564x/6e/2e/82/6e2e823de8df244a32e426b2900bb4f7.jpg"
   },
   {
-    "name": "Sengoku",
+    "user": "Sengoku",
     "fruit": "Hito Hito no Mi, Model: Daibutsu",
     "type": "Observation",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/24/Sengoku_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20210208064630"
   },
   {
-    "name": "Garp",
+    "user": "Garp",
     "fruit": "None",
     "type": "Observation",
     "rarity": "Legendary",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e1/Monkey_D._Garp_Anime_Infobox.png/revision/latest?cb=20230207160645"
   },
   {
-    "name": "Gol D. Roger",
+    "user": "Gol D. Roger",
     "fruit": "None",
     "type": "Observation",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/24/Gol_D._Roger_Anime_Infobox.png/revision/latest?cb=20230612100153"
   },
   {
-    "name": "Yamato",
+    "user": "Yamato",
     "fruit": "Inu Inu no Mi, Model: Okuchi no Makami",
     "type": "Observation",
     "rarity": "Epic",
     "image": "https://i.pinimg.com/736x/f7/75/23/f77523b0698e52051ffc4e9d16297f89.jpg"
   },
   {
-    "name": "Charlotte Linlin",
+    "user": "Charlotte Linlin",
     "fruit": "Soru Soru no Mi",
     "type": "Observation",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/76/Charlotte_Linlin_at_Age_24.png/revision/latest?cb=20230709023846"
   },
   {
-    "name": "Marshall D. Teach",
+    "user": "Marshall D. Teach",
     "fruit": "Yami Yami no Mi & Gura Gura no Mi",
     "type": "Observation",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/villains/images/0/07/Marshall_D_Teach.png/revision/latest?cb=20200207112535"
   },
   {
-    "name": "Usopp",
+    "user": "Usopp",
     "fruit": "None",
     "type": "Observation",
     "rarity": "Rare",
     "image": "https://static.wikia.nocookie.net/onepiece/images/3/35/Usopp_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20221127233827"
   },
   {
-    "name": "Kaido",
+    "user": "Kaido",
     "fruit": "Uo Uo no Mi, Model: Seiryu",
     "type": "Observation",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/2d/Kaidou_Anime_Infobox.png/revision/latest?cb=20231102015517"
   },
   {
-    "name": "Sabo",
+    "user": "Sabo",
     "fruit": "Mera Mera no Mi",
     "type": "Observation",
     "rarity": "Epic",
     "image": "https://static.wikia.nocookie.net/onepiece/images/c/c2/Sabo_Anime_Infobox.png/revision/latest/scale-to-width-down/1200?cb=20230804035141"
   },
   {
-    "name": "Marco",
+    "user": "Marco",
     "fruit": "Tori Tori no Mi, Model: Phoenix",
     "type": "Observation",
     "rarity": "Epic",
     "image": "https://static.wikia.nocookie.net/tasw/images/e/e7/Marco_The_Phoenix.png/revision/latest/scale-to-width-down/555?cb=20220715122051"
   },
   {
-    "name": "Chinjao",
+    "user": "Chinjao",
     "fruit": "None",
     "type": "Observation",
     "rarity": "Rare",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b0/Chinjao_Anime_Infobox.png/revision/latest?cb=20180508221950"
   },
   {
-    "name": "Ryuma",
+    "user": "Ryuma",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/6/6a/Shimotsuki_Ryuma_Anime_Infobox.png/revision/latest?cb=20240121155620"
   },
   {
-    "name": "Garp",
+    "user": "Garp",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://i.namu.wiki/i/GL7kgK1vT2_ZuvYIgVVOJ-pkwPGg5DSx__yAL4qw6wOWCVZwjnJGZM_4bVFsm07wvC9HuOuTJyJ9aRjFMWU8VA.webp"
   },
   {
-    "name": "Dracule Mihawk",
+    "user": "Dracule Mihawk",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://preview.redd.it/the-character-of-mihawk-in-the-present-one-piece-v0-pgkpxzgbnxge1.jpeg?width=1080&crop=smart&auto=webp&s=490e867151bae40b1fc64a36c7f793232445f94d"
   },
   {
-    "name": "Gol D. Roger",
+    "user": "Gol D. Roger",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/2/26/Roger_Pirate_Warriors_4.png/revision/latest?cb=20240313213606"
   },
   {
-    "name": "Shanks",
+    "user": "Shanks",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/p__/images/d/db/Shanks.png/revision/latest?cb=20200211043514&path-prefix=protagonist"
   },
   {
-    "name": "Silvers Rayleigh",
+    "user": "Silvers Rayleigh",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/0/03/Silvers_Rayleigh_Manga_Color_Scheme.png/revision/latest?cb=20230327224327"
   },
   {
-    "name": "Edward Newgate (Whitebeard)",
+    "user": "Edward Newgate (Whitebeard)",
     "fruit": "Gura Gura no Mi",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/07/whitebeard-in-one-piece.jpg"
   },
   {
-    "name": "Monkey D. Luffy (Armament)",
+    "user": "Monkey D. Luffy (Armament)",
     "fruit": "Gomu Gomu no Mi",
     "type": "Armament",
     "rarity": "Epic",
     "image": "https://static.wikia.nocookie.net/onepiece/images/d/d8/Monkey_D._Luffy_Manga_Post_Timeskip_Infobox.png/revision/latest?cb=20141011154302"
   },
   {
-    "name": "Kaido",
+    "user": "Kaido",
     "fruit": "Uo Uo no Mi, Model: Seiryu",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/8c/Kaidou_Onigashima_Pirate_Warriors_4.png/revision/latest?cb=20230906184302"
   },
   {
-    "name": "Kozuki Oden",
+    "user": "Kozuki Oden",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7a/Kouzuki_Oden_Anime_Infobox.png/revision/latest?cb=20210425071747"
   },
   {
-    "name": "Roronoa Zoro (Armament)",
+    "user": "Roronoa Zoro (Armament)",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Epic",
     "image": "https://static.wikia.nocookie.net/onepiece/images/5/52/Roronoa_Zoro_Anime_Post_Timeskip_Infobox.png/revision/latest?cb=20241029161719"
   },
   {
-    "name": "Benn Beckman",
+    "user": "Benn Beckman",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Legendary",
     "image": "https://static.wikia.nocookie.net/onepiece/images/1/12/Benn_Beckman_Anime_Infobox.png/revision/latest/scale-to-width/360?cb=20240623091906"
   },
   {
-    "name": "Charlotte Linlin (Big Mom)",
+    "user": "Charlotte Linlin (Big Mom)",
     "fruit": "Soru Soru no Mi",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://images8.alphacoders.com/104/1045518.jpg"
   },
   {
-    "name": "Sakazuki (Akainu)",
+    "user": "Sakazuki (Akainu)",
     "fruit": "Magu Magu no Mi",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://preview.redd.it/akainus-armament-haki-is-peak-dude-is-top-5-let-me-explain-v0-z5ou7fmhqhgc1.png?width=351&format=png&auto=webp&s=742857c1c98547a3752997f87806b1f87419dc68"
   },
   {
-    "name": "Kuzan (Aokiji)",
+    "user": "Kuzan (Aokiji)",
     "fruit": "Hie Hie no Mi",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/7/7c/Kuzan_Armament_Haki.png/revision/latest/scale-to-width-down/210?cb=20241006022305"
   },
   {
-    "name": "Borsalino (Kizaru)",
+    "user": "Borsalino (Kizaru)",
     "fruit": "Pika Pika no Mi",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://i.redd.it/enel-w-armament-haki-vs-kizaru-v0-hj6gdbnn1e6e1.jpg?width=452&format=pjpg&auto=webp&s=9e01978d425bb26cf63ccb1de453ce654d540b33"
   },
   {
-    "name": "Marshall D. Teach (Blackbeard)",
+    "user": "Marshall D. Teach (Blackbeard)",
     "fruit": "Yami Yami no Mi & Gura Gura no Mi",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2022/09/One-Piece-Blackbeard-powers-Devil-Fruits-featured.jpg"
   },
   {
-    "name": "Rob Lucci",
+    "user": "Rob Lucci",
     "fruit": "Neko Neko no Mi, Model: Leopard",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/villains/images/1/13/AwakenedZoan.webp/revision/latest?cb=20230915200942"
   },
   {
-    "name": "King",
+    "user": "King",
     "fruit": "Ryu Ryu no Mi, Model: Pteranodon",
     "type": "Armament",
     "rarity": "Legendary",
     "image": "https://vignette.wikia.nocookie.net/onepiece/images/8/8f/King_Anime_Infobox.png/revision/latest?cb=20200315041709"
   },
   {
-    "name": "Charlotte Katakuri",
+    "user": "Charlotte Katakuri",
     "fruit": "Mochi Mochi no Mi",
     "type": "Armament",
     "rarity": "Mythical",
     "image": "https://preview.redd.it/give-katakuri-advanced-armament-haki-and-advanced-v0-rhnt0rcvj4ib1.jpg?auto=webp&s=19d930e3aff17fc6b6c69e82ea7b01baa3cc9a95"
   },
   {
-    "name": "Jinbe",
+    "user": "Jinbe",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Legendary",
     "image": "https://static.wikia.nocookie.net/onepiece/images/8/81/Jinbe_Anime_Infobox.png/revision/latest?cb=20170521201349"
   },
   {
-    "name": "Sentomaru",
+    "user": "Sentomaru",
     "fruit": "None",
     "type": "Armament",
     "rarity": "Legendary",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/e2/Sentomaru_Anime_Concept_Art.png/revision/latest?cb=20180907175949"
   },
   {
-    "name": "Monkey D. Garp",
+    "user": "Monkey D. Garp",
     "fruit": "None",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://i.ytimg.com/vi/o0QDmtxiEIE/maxresdefault.jpg"
   },
   {
-    "name": "Portgas D. Ace",
+    "user": "Portgas D. Ace",
     "fruit": "Mera Mera no Mi",
     "type": "Conqueror",
     "rarity": "Legendary",
     "image": "https://preview.redd.it/how-strong-was-ace-v0-jju796xeo49b1.jpg?width=640&crop=smart&auto=webp&s=d308e84cd035a731c64afea735532d1ea40ece51"
   },
   {
-    "name": "Donquixote Doflamingo",
+    "user": "Donquixote Doflamingo",
     "fruit": "Ito Ito no Mi",
     "type": "Conqueror",
     "rarity": "Legendary",
     "image": "https://m.media-amazon.com/images/M/MV5BYzJmM2M4MzctMzE0YS00YjBlLTlkODAtMzZhODUzOGM3YjRjXkEyXkFqcGc@._V1_.jpg"
   },
   {
-    "name": "Charlotte Katakuri",
+    "user": "Charlotte Katakuri",
     "fruit": "Mochi Mochi no Mi",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/4/4a/4EEA5B9F-40BD-41F1-A93A-A6A5AD9FC991.webp/revision/latest?cb=20240121215103"
   },
   {
-    "name": "Sengoku",
+    "user": "Sengoku",
     "fruit": "Hito Hito no Mi, Model: Daibutsu",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://i.pinimg.com/736x/a6/29/4d/a6294d6953a69e5a5d02eaf8591c35b4.jpg"
   },
   {
-    "name": "Eustass Kid",
+    "user": "Eustass Kid",
     "fruit": "Jiki Jiki no Mi",
     "type": "Conqueror",
     "rarity": "Legendary",
     "image": "https://pbs.twimg.com/media/GSQqIE3agAAEJKf.jpg:large"
   },
   {
-    "name": "Roronoa Zoro",
+    "user": "Roronoa Zoro",
     "fruit": "None",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://preview.redd.it/cxoq8qqrv9f81.png?width=852&format=png&auto=webp&s=9bfb883dd2c7418c21352051a93bcc1f7e3e8598"
   },
   {
-    "name": "Kozuki Oden",
+    "user": "Kozuki Oden",
     "fruit": "None",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://i.redd.it/9hixhztchez91.jpg"
   },
   {
-    "name": "Gol D. Roger",
+    "user": "Gol D. Roger",
     "fruit": "None",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://i.redd.it/6r97hmxv01qb1.jpg"
   },
   {
-    "name": "Yamato",
+    "user": "Yamato",
     "fruit": "Inu Inu no Mi, Model: Okuchi no Makami",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://preview.redd.it/all-of-those-excuses-for-hating-yamato-but-the-real-reason-v0-fr1bx1rxunld1.jpeg?width=640&crop=smart&auto=webp&s=3308b4fe3408b3a6e54ce72029dcde478bcfc596"
   },
   {
-    "name": "Edward Newgate (Whitebeard)",
+    "user": "Edward Newgate (Whitebeard)",
     "fruit": "Gura Gura no Mi",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/character-stats-and-profiles/images/a/a9/Pb_3.png/revision/latest?cb=20210917003031"
   },
   {
-    "name": "Don Chinjao",
+    "user": "Don Chinjao",
     "fruit": "None",
     "type": "Conqueror",
     "rarity": "Legendary",
     "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/11/Don-Chinjao.jpg"
   },
   {
-    "name": "Charlotte Linlin (Big Mom)",
+    "user": "Charlotte Linlin (Big Mom)",
     "fruit": "Soru Soru no Mi",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/02/Big-Mom-Best-Moves-Featured.jpg"
   },
   {
-    "name": "Kaido",
+    "user": "Kaido",
     "fruit": "Uo Uo no Mi, Model: Seiryu",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://preview.redd.it/5ahvau72zjud1.jpeg?width=640&crop=smart&auto=webp&s=332593f85a952dad9e044f4ef25a5407ff8b7c91"
   },
   {
-    "name": "Shanks",
+    "user": "Shanks",
     "fruit": "None",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/p__/images/f/fa/Shanks_protective_face.png/revision/latest/scale-to-width-down/985?cb=20230325191231&path-prefix=protagonist"
   },
    {
-    "name": "Silvers Rayleigh",
+    "user": "Silvers Rayleigh",
     "fruit": "None",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/12/rayleigh-haki-one-piece-episode-1089.jpg"
   },
   {
-    "name": "Boa Hancock",
+    "user": "Boa Hancock",
     "fruit": "Mero Mero no Mi",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static.beebom.com/wp-content/uploads/2022/12/boa.jpg?w=640"
   },
   {
-    "name": "Monkey D. Luffy",
+    "user": "Monkey D. Luffy",
     "fruit": "Hito Hito no Mi, Model: Nika",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://staticg.sportskeeda.com/editor/2023/08/d9dc7-16914260703952-1920.jpg"
   },
   {
-    "name": "Saint Topman Warcury",
+    "user": "Saint Topman Warcury",
     "fruit": "Unknown",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/b/b4/Topman_Warcury_Anime_Infobox.png/revision/latest?cb=20240915021036"
   },
   {
-    "name": "Saint Marcus Mars",
+    "user": "Saint Marcus Mars",
     "fruit": "Unknown",
     "type": "Conqueror",
     "rarity": "Mythical",
     "image": "https://static.wikia.nocookie.net/onepiece/images/e/ea/Marcus_Mars_Anime_Infobox.png/revision/latest?cb=20230617153420"
   },
   {
-    "name": "Saint Jaygarcia Saturn",
+    "user": "Saint Jaygarcia Saturn",
     "fruit": "Unknown",
     "type": "Conqueror",
     "rarity": "Mythical",
