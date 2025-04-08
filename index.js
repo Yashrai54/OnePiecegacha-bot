@@ -238,7 +238,7 @@ bot.onText(/\/accept/, async (msg) => {
   const attackerFruit = challengerInv.fruits[Math.floor(Math.random() * challengerInv.fruits.length)];
   const defenderFruit = defenderInv.fruits[Math.floor(Math.random() * defenderInv.fruits.length)];
 
-  const rank = { Mythical: 4, Legendary: 3, Rare: 2, Common: 1 };
+  const rank = { Mythical: 5, Legendary: 4,Epic:3, Rare: 2,Uncommon:1.5, Common: 1 };
 
   let winnerId, loserId, winnerName, loserName;
   if (rank[attackerFruit.rarity] > rank[defenderFruit.rarity]) {
