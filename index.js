@@ -63,7 +63,7 @@ bot.onText(/\/pull/, async (msg) => {
   let userInventory = await Inventory.findOne({ userId });
 
   if (!userInventory) {
-    userInventory = new Inventory({ userId, username, fruits: [] });
+    userInventory = new Inventory({ userId, username, fruits: [], bounty: 0 });
   }
 
   const alreadyOwned = userInventory.fruits.some(f => f.fruit === fruit);
@@ -75,7 +75,10 @@ bot.onText(/\/pull/, async (msg) => {
     });
   }
 
+  // Only add fruit and bounty if it's a new one
   userInventory.fruits.push({ fruit, user, type, image, rarity });
+  userInventory.bounty += 100;
+
   await userInventory.save();
 
   bot.sendPhoto(chatId, image, {
@@ -112,32 +115,141 @@ bot.onText(/\/inventory/, async (msg) => {
 bot.onText(/\/leaderboard/, async (msg) => {
   const chatId = msg.chat.id;
 
-  const allInventories = await Inventory.find();
-  if (allInventories.length === 0) {
-    return bot.sendMessage(chatId, '🏅 No one has pulled any Devil Fruits yet!', {
+  const topUsers = await Inventory.find().sort({ bounty: -1 }).limit(10);
+
+  if (topUsers.length === 0) {
+    return bot.sendMessage(chatId, '💸 No bounties have been earned yet. Use /pull to get started!', {
       reply_to_message_id: msg.message_id
     });
   }
 
-  const leaderboard = allInventories
-    .map(user => ({
-      userId: user.userId,
-      username: user.username || `User_${user.userId}`,
-      count: user.fruits.length
-    }))
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 10);
-
-  let text = '<b>🏆 Top Devil Fruit Collectors:</b>\n\n';
-  leaderboard.forEach((entry, index) => {
-    const displayName = entry.userId == msg.from.id
+  let text = '<b>💰 Top Bounties:</b>\n\n';
+  topUsers.forEach((user, index) => {
+    const name = user.userId == msg.from.id
       ? '<b>You</b>'
-      : `@${entry.username}`;
-    text += `${index + 1}. ${displayName} - ${entry.count} fruits\n`;
+      : `@${user.username || 'User_' + user.userId}`;
+    text += `${index + 1}. ${name} - ${user.bounty} berries\n`;
   });
 
   bot.sendMessage(chatId, text, {
     parse_mode: 'HTML',
     reply_to_message_id: msg.message_id
   });
+});
+
+bot.onText(/\/bounty/, async (msg) => {
+  const chatId = msg.chat.id;
+  const userId = msg.from.id;
+
+  const userInventory = await Inventory.findOne({ userId });
+
+  if (!userInventory) {
+    return bot.sendMessage(chatId, "👤 You don't have any bounty yet. Try /pull to start earning!", {
+      reply_to_message_id: msg.message_id
+    });
+  }
+
+  bot.sendMessage(chatId, `💰 *Your Bounty:* ${userInventory.bounty} berries`, {
+    parse_mode: 'Markdown',
+    reply_to_message_id: msg.message_id
+  });
+});
+const pendingFights = new Map(); // userId -> { challengerId, timeout }
+bot.onText(/\/fight (.+)/, async (msg, match) => {
+  const chatId = msg.chat.id;
+  const challengerId = msg.from.id;
+  const challengerUsername = msg.from.username || `User_${challengerId}`;
+  const mentioned = match[1].replace('@', '').trim();
+
+  const defenderData = await bot.getChatMember(chatId, mentioned).catch(() => null);
+  if (!defenderData) return bot.sendMessage(chatId, '❌ Could not find the mentioned user.');
+
+  const defenderId = defenderData.user.id;
+  const defenderUsername = defenderData.user.username || `User_${defenderId}`;
+
+  if (challengerId === defenderId) {
+    return bot.sendMessage(chatId, `🌀 You can't challenge yourself.`);
+  }
+
+  if (pendingFights.has(defenderId)) {
+    return bot.sendMessage(chatId, `⚔️ ${defenderUsername} already has a pending fight.`);
+  }
+
+  const challengerInv = await Inventory.findOne({ userId: challengerId });
+  const defenderInv = await Inventory.findOne({ userId: defenderId });
+
+  if (!challengerInv || challengerInv.fruits.length === 0 || !defenderInv || defenderInv.fruits.length === 0) {
+    return bot.sendMessage(chatId, `❗ Both players must have at least 1 fruit to fight.`);
+  }
+
+  bot.sendMessage(chatId, `⚔️ @${defenderUsername}, you have been challenged by @${challengerUsername}!\n\nReply with /accept to fight! ⏳ (Expires in 30s)`);
+
+  const timeout = setTimeout(() => {
+    pendingFights.delete(defenderId);
+    bot.sendMessage(chatId, `⌛ @${defenderUsername} did not accept the challenge in time.`);
+  }, 30000);
+
+  pendingFights.set(defenderId, { challengerId, timeout, chatId });
+});
+bot.onText(/\/accept/, async (msg) => {
+  const defenderId = msg.from.id;
+  const defenderUsername = msg.from.username || `User_${defenderId}`;
+  const fight = pendingFights.get(defenderId);
+
+  if (!fight) {
+    return bot.sendMessage(msg.chat.id, `❌ You don't have any pending fight requests.`);
+  }
+
+  const { challengerId, timeout, chatId } = fight;
+  clearTimeout(timeout);
+  pendingFights.delete(defenderId);
+
+  const challengerInv = await Inventory.findOne({ userId: challengerId });
+  const defenderInv = await Inventory.findOne({ userId: defenderId });
+
+  const attackerFruit = challengerInv.fruits[Math.floor(Math.random() * challengerInv.fruits.length)];
+  const defenderFruit = defenderInv.fruits[Math.floor(Math.random() * defenderInv.fruits.length)];
+
+  const rank = { Mythical: 4, Legendary: 3, Rare: 2, Common: 1 };
+
+  let winnerId, loserId, winnerName, loserName;
+  if (rank[attackerFruit.rarity] > rank[defenderFruit.rarity]) {
+    winnerId = challengerId;
+    loserId = defenderId;
+    winnerName = challengerInv.username;
+    loserName = defenderUsername;
+  } else if (rank[attackerFruit.rarity] < rank[defenderFruit.rarity]) {
+    winnerId = defenderId;
+    loserId = challengerId;
+    winnerName = defenderUsername;
+    loserName = challengerInv.username;
+  } else {
+    const win = Math.random() < 0.5;
+    winnerId = win ? challengerId : defenderId;
+    loserId = win ? defenderId : challengerId;
+    winnerName = win ? challengerInv.username : defenderUsername;
+    loserName = win ? defenderUsername : challengerInv.username;
+  }
+
+  const winnerInv = winnerId === challengerId ? challengerInv : defenderInv;
+  const loserInv = winnerId === challengerId ? defenderInv : challengerInv;
+
+  winnerInv.bounty += 200;
+  loserInv.bounty = Math.max(0, loserInv.bounty - 100);
+
+  await winnerInv.save();
+  await loserInv.save();
+
+  const result = `
+🥊 <b>PvP Fight Accepted!</b>
+
+🍇 <b>@${challengerInv.username}</b> used: ${attackerFruit.fruit} (${attackerFruit.rarity})
+🍇 <b>@${defenderUsername}</b> used: ${defenderFruit.fruit} (${defenderFruit.rarity})
+
+🏁 <b>Winner:</b> ${winnerName}
+💰 +200 bounty to ${winnerName}
+💸 -100 bounty from ${loserName}
+`;
+
+  bot.sendMessage(chatId, result, { parse_mode: 'HTML' });
 });

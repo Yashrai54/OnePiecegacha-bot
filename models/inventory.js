@@ -15,7 +15,9 @@ const inventorySchema = new mongoose.Schema({
     unique: true
   },
   username: String,
-  fruits: [fruitSchema] // ✅ array of objects
+  fruits: [fruitSchema],
+  bounty: {
+    type: Number,
+    default: 0
+  }
 });
-
-module.exports = mongoose.model('Inventory', inventorySchema);
